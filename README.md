@@ -6,6 +6,8 @@ Board facts (touch chip, pins, buses, panel) live here, not in the kernel.
 **Build-only.** Nobody on the project owns this phone, so the kernel has been built for it but never run. Upstream's reports
 are in the credited projects; a maintainer with the phone is welcome (see NOTICE for whose work this builds on).
 
+Untested here: the GPU user interface (`sweetgpuabi=1`, an msm-style IOKit client over the Adreno 618 service: it compiles and links, nothing opens it yet).
+
 Boot-args and ADT flags are in `device.conf`. The kernel is built from `xnu_kernel_qcom_common` with `config/MASTER.arm64.sweet`.
 
 Licence: MIT (`LICENSE`); `NOTICE` credits the upstream authors; `LEGAL.md` says what never goes in.
