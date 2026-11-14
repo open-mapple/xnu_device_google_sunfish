@@ -1,0 +1,5 @@
+Credits: frokfrdk (sunfish bring-up, via github.com/hellagarage/ios-sweet-pixel, MIT) and hellagarage, on top of
+ios-sweet (dipa-studio, damjankakak3 and contributors, MIT). Board facts were read from their sources and from
+Google's published kernel (GPL; read, not copied).
+
+The kernel (xnu_kernel_qcom_common) is APSL 2.0; everything in this repository is MIT (LICENSE).
